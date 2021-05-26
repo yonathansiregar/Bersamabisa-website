@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+/* CSS Scrollbar Selectors */
+::-webkit-scrollbar {
+    width: 16px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: rgb(0, 0, 65);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: yellow;
+}
+
+/* Style top navigation bar in all pages */
+.navbar {
+    background-color: #E54949;
+}
+
+.brand {
+    height: 4em;
+    width: 6em;
+}
+
+.brand-name {
+    display: inline-block;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.brand-name:hover {
+    font-weight: bold !important;
+    color: rgb(64, 0, 255);
+}
+
+.menu {
+    color: white !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu:hover {
+    font-weight: bold !important;
+    color: rgb(64, 0, 255) !important;
+}
+
+.btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.heading-atas {
+    background-image: url('../images/gambar-misi-kemanusiaan.png');
+    height: 558px;
+}
+
+.heading {
+    display: inline-block;
+    margin: 100px 0px 0px 80px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.gambar {
+    width : 100%;
+    height : 555px;
+}
+
+.kotak {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(160, 127, 127);
+    margin-top: -50px;
+    margin-left: 600px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid black !important;
+}
+
+.program {
+    color: white;
+    margin: 40px 140px 120px 110px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+}
+
+.card {
+    width: 356px;
+    height: 450px;
+    margin-top: 70px;
+}
+
+.card-body {
+    background-color: red;
+}
+
+#first-card {
+    margin-left: 55px;
+}
+
+#last-card {
+    margin-right: 55px;
+}
+
+.gambar-program {
+    background-color: rgb(98, 98, 117);
+    margin-top: -50px;
+    width: 100%;
+    height: 600px;
+}
+
+/* Quotes */
+.quotes {
+    background-color: blueviolet;
+}
+
+/* News and The Most Popular */
+.berita-dan-terpopuler {
+    background-color: white !important;
+    margin: -49px 0px 0px 0px;
+    height: 2010px;
+}
+
+#berita {
+    margin: 50px 0px 30px 20px;
+}
+
+#terpopuler {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+#keterangan {
+    font-weight: bold;
+}
+
+.terpopuler-pertama {
+    height: 469px;
+    width: 720px;
+}
+
+.terpopuler-kedua {
+    margin: 60px 0px 0px 0px;
+    height: 469px;
+    width: 720px;
+}
+
+.link-berita {
+    color: black;
+}
+
+.link-berita:hover {
+    color: rgb(23, 3, 141);
+    font-weight: bold;
+}
+
+/* Media Queries CSS */
+@media screen and (max-width: 575.99px) {
+    .navbar-toggler {
+        margin: -5px 0px 0px 10px;
+    }
+
+    .kotak {
+        width: 180px;
+        height: 70px;
+        margin: -20px 0px 30px 140px;
+    }
+
+    .program {
+        color: #FFFFFF;
+        margin: 12px 0px 0px 35px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+
+    .gambar-program {
+        height: 2000px;
+        width : 100%;
+    }
+
+    #first-card {
+        margin: 70px 0px 0px 60px;
+    }
+
+    #second-card {
+        margin: -70px 0px 0px 60px;
+    }
+
+    #third-card {
+        margin: -70px 0px 0px 60px;
+    }
+
+    #last-card {
+        margin: -70px 0px 0px 60px;
+    }
+
+    .berita-dan-terpopuler {
+        height: 1000px;
+    }
+
+    .gambar-berita {
+        width: auto;
+        height: 220px;
+    }
+
+    .terpopuler-pertama {
+        width: auto;
+        height: 220px;
+        margin-bottom: 30px;
+    }
+
+    .terpopuler-kedua {
+        width: auto;
+        height: 220px;
+    }
+}
+
+/* Responsive Bottom Footer Style */
+/* Main Footer */
+footer .main-footer{  
+    padding: 20px 0;  
+    background: #252525;
+}
+
+footer ul{  
+    padding-left: 0;  
+    list-style: none;
+}
+
+/* Copy Right Footer */
+.footer-copyright { 
+    background: #222; 
+    padding: 5px 0;
+}
+
+.footer-copyright .logo {    
+    display: inherit;
+}
+
+.footer-copyright nav {    
+    float: right;    
+    margin-top: 5px;
+}
+
+.footer-copyright nav ul {  
+    list-style: none; 
+    margin: 0;  
+    padding: 0;
+}
+
+.footer-copyright nav ul li { 
+    border-left: 1px solid #505050; 
+    display: inline-block;  
+    line-height: 12px;  
+    margin: 0;  
+    padding: 0 8px;
+}
+
+.footer-copyright nav ul li a{  
+    color: #969696;
+}
+
+.footer-copyright nav ul li:first-child { 
+    border: medium none;  
+    padding-left: 0;
+}
+
+.footer-copyright p { 
+    color: #ffffff; 
+    margin: 2px 0 0;
+    font-size: 20px;
+}
+
+/* Footer Top */
+.footer-top {  
+    background: #252525;  
+    padding-bottom: 30px; 
+    margin-bottom: 30px;  
+    border-bottom: 3px solid #222;
+}
+
+/* Footer transparent */
+footer.transparent .footer-top, 
+footer.transparent .main-footer {  
+    background: transparent;
+}
+
+footer.transparent .footer-copyright{ 
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Footer light */
+footer.light .footer-top{ 
+    background: #f9f9f9;
+}
+
+footer.light .main-footer{  
+    background: #f9f9f9;
+}
+
+footer.light .footer-copyright{
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Footer 4 */
+.footer .logo { 
+    display: inline-block;
+}
+
+/* Widgets */
+.widget {  
+    padding: 20px;  
+    margin-bottom: 40px;
+}
+
+.widget.widget-last {  
+    margin-bottom: 0px;
+}
+
+.widget.no-box { 
+    padding: 0; 
+    background-color: transparent;  
+    margin-bottom: 40px;
+    box-shadow: none; 
+    -webkit-box-shadow: none; 
+    -moz-box-shadow: none; 
+    -ms-box-shadow: none; 
+    -o-box-shadow: none;
+}
+
+.widget.subscribe p {  
+    margin-bottom: 18px;
+}
+
+.widget li a { 
+    color: #ff8d1e;
+}
+
+.widget li a:hover{ 
+    color: #4b92dc;
+}
+
+.widget-title {
+    margin-bottom: 20px;
+}
+.widget-title span {
+    background: #839FAD none repeat scroll 0 0;
+    display: block; 
+    height: 1px;
+    margin-top: 25px;
+    position: relative;
+    width: 20%;
+}
+
+.widget-title span::after {
+    background: inherit;
+    content: "";
+    height: inherit;
+    position: absolute;
+    top: -4px;
+    width: 50%;
+}
+
+.widget-title.text-center span,
+.widget-title.text-center span::after {
+    margin-left: auto;
+    margin-right:auto;
+    left: 0;
+    right: 0;
+}
+
+.widget .badge{ 
+    float: right; 
+    background: #7f7f7f;
+}
+
+.typo-light h1, 
+.typo-light h2, 
+.typo-light h3, 
+.typo-light h4, 
+.typo-light h5, 
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{
+    color: #fff;
+}
+
+ul.social-footer2 { 
+    margin: 0;
+    padding: 0; 
+    width: auto;
+}
+
+ul.social-footer2 li {
+    display: inline-block;
+    padding: 0;
+}
+
+ul.social-footer2 li a:hover {
+    background-color:#ff8d1e;
+}
+
+ul.social-footer2 li a {
+    display: block; 
+    height:30px;
+    width: 30px;
+    text-align: center;
+}
+
+.btn{
+    background-color: #ff8d1e; 
+    color:#fff;
+}
+
+.btn:hover, 
+.btn:focus, 
+.btn.active {
+    background: #4b92dc;
+    color: #fff;
+    -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 250ms ease-in-out 0s;
+    -moz-transition: all 250ms ease-in-out 0s;
+    -ms-transition: all 250ms ease-in-out 0s;
+    -o-transition: all 250ms ease-in-out 0s;
+    transition: all 250ms ease-in-out 0s;
+}
