@@ -65,7 +65,15 @@ body {
 /* Tentang Kami */
 #first {
     background-color: #77acf1;
-    height: 680px;
+    height: 880px;
+}
+
+.card {
+    border: 1px solid #000000;
+}
+
+#foto {
+    height: 432px;
 }
 
 #kotak-pertama {
@@ -81,8 +89,8 @@ body {
 .tentang-kami {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    margin: 33px 3px 120px 30px;
+    font-size: 30px;
+    margin: 28px 3px 120px 30px;
 }
 
 .gambar-program {
@@ -151,29 +159,6 @@ body {
     background-color: #000000;
 }
 
-/* Events */
-#container-kedua {
-    background-color: #ffdf6b;
-    height: 680px;
-}
-
-#kotak-ketiga {
-    width: 200px;
-    height: 100px;
-    background-color: rgb(160, 127, 127);
-    margin-left: 50px !important;
-    margin-top: 50px;
-    display: inline-block;
-    border: 1px solid black !important;
-}
-
-.events {
-    color: white !important;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    margin: 33px 3px 120px 63px;
-}
-
 /* Donasi Sekarang */
 #container-ketiga {
     background-color: #02475e;
@@ -213,6 +198,10 @@ body {
 
 .bi-whatsapp {
     font-size: 50px;
+}
+
+.whatsapp {
+    font-size: 16px;
 }
 
 .ket-telp {
