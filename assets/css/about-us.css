@@ -74,6 +74,12 @@ body {
 
 #foto {
     height: 432px;
+    width: 343px;
+}
+
+#first-card {
+    height: 639px;
+    margin-top: 30px;
 }
 
 #kotak-pertama {
@@ -93,14 +99,14 @@ body {
     margin: 28px 3px 120px 30px;
 }
 
-.gambar-program {
+.profil-tim-kami {
     margin: 30px 0px 0px 0px;
 }
 
 /* Konten Visi dan Misi */
 #container {
     background-color: #04009a;
-    height: 680px;
+    height: 456px;
 }
 
 #kotak-kedua {
@@ -126,13 +132,6 @@ body {
     height: 140px;
 }
 
-#garis-pembatas {
-    border: 1px solid black !important;
-    background-color: #000000;
-    margin: 220px -180px 230px -180px;
-    transform: rotate(-90deg);
-}
-
 #misi {
     background-color: rgb(41, 203, 231);
     width: 33.33px;
@@ -141,22 +140,6 @@ body {
 
 .text-center {
     font-size: 30px;
-}
-
-.garis-pertama {
-    border: 1px solid #000000;
-    background-color: #000000;
-    margin-bottom: 10px;
-}
-
-.penomoran {
-    margin-left: 20px;
-}
-
-.garis-kedua {
-    border: 1px solid #000000;
-    margin-bottom: 10px;
-    background-color: #000000;
 }
 
 /* Donasi Sekarang */
@@ -226,6 +209,28 @@ body {
 .email-address {
     margin-top: -15px;
     margin-left: 60px;
+}
+
+/* Media Queries Style For Responsive Website */
+@media screen and (max-width: 575.99px){
+    #first {
+        height: 3000px;
+    }
+    .profil-tim-kami {
+        width: auto !important;
+    }
+
+    #container {
+        height: 400px;
+    }
+
+    .col #visi {
+        height: 180px;
+    }
+
+    .col #misi {
+        height: 180px;
+    }
 }
 
 /* Responsive Bottom Footer Style */
