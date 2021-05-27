@@ -134,11 +134,11 @@ body {
 }
 
 #berita {
-    margin: 50px 0px 30px 20px;
+    margin: 50px 0px 30px -20px;
 }
 
 #terpopuler {
-    margin-left: 20px;
+    margin-left: -20px;
     margin-top: 30px;
 }
 
@@ -224,6 +224,185 @@ body {
     .terpopuler-kedua {
         width: auto;
         height: 220px;
+    }
+
+    .quotes {
+        font-size: 14px;
+    }
+
+    .berita-dan-terpopuler {
+        height: 1300px;
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+    .kotak {
+        width: 180px;
+        height: 70px;
+        margin: -20px 0px 30px 250px;
+    }
+
+    .program {
+        color: #FFFFFF;
+        margin: 14px 0px 0px 35px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    }
+
+    .card-img-top {
+        height: 180px;
+    }
+
+    .card {
+        height: 350px;
+        width: 1000px !important;
+    }
+
+    .read-more {
+        width: 100px;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .card-title {
+        font-size: 18px;
+        color: white;
+    }
+
+    .btn-satu {
+        margin-left: -16px;
+    }
+
+    .btn-dua {
+        margin-left: -16px;
+    }
+
+    .btn-tiga {
+        margin-left: -16px;
+    }
+
+    .btn-empat {
+        margin-left: -16px;
+    }
+
+    .berita-dan-terpopuler {
+        height: 1000px;
+    }
+
+    .read-more {
+        margin-left : -10px;
+    }
+
+    .gambar-berita {
+        width: auto;
+        height: 220px;
+    }
+
+    .terpopuler-pertama {
+        width: auto;
+        height: 220px;
+        margin-bottom: 30px;
+    }
+
+    .terpopuler-kedua {
+        width: auto;
+        height: 220px;
+    }
+
+    .quotes {
+        font-size: 14px;
+    }
+
+    .berita-dan-terpopuler {
+        height: 1300px;
+    }
+}
+
+@media screen and (max-width: 991.99px) {
+    .kotak {
+        width: 200px;
+        height: 70px;
+        margin: -20px 0px 30px 300px;
+    }
+
+    .program {
+        color: #FFFFFF;
+        margin: 10px 0px 0px 35px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+    }
+
+    .gambar-program {
+        height: 450px;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+
+    .card {
+        height: 330px;
+        width: 1000px !important;
+    }
+
+    .read-more {
+        width: 100px;
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .card-title {
+        font-size: 15px;
+        color: white;
+    }
+
+    .btn-satu {
+        margin-left: -16px;
+    }
+
+    .btn-dua {
+        margin-left: -16px;
+    }
+
+    .btn-tiga {
+        margin-left: -8px;
+    }
+
+    .btn-empat {
+        margin-left: 8px;
+    }
+
+    .read-more {
+        margin-left : -10px;
+    }
+
+    .gambar-berita {
+        width: 500px;
+        height: 350px;
+    }
+
+    .terpopuler-pertama {
+        width: 500px;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+
+    .terpopuler-kedua {
+        width: 500px;
+        height: 350px;
+    }
+
+    .quotes {
+        font-size: 16px;
+        height: 80px;
+    }
+
+    .quote {
+        margin-top: 5px;
+    }
+
+    .berita-dan-terpopuler {
+        height: 1500px;
     }
 }
 
