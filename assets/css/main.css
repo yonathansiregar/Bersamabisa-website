@@ -121,6 +121,14 @@ body {
     height: 600px;
 }
 
+.link-baca {
+    color: #FFFFFF;
+}
+
+.link-baca:hover {
+    color: #FFFFFF;
+}
+
 /* Quotes */
 .quotes {
     background-color: blueviolet;
@@ -130,7 +138,7 @@ body {
 .berita-dan-terpopuler {
     background-color: white !important;
     margin: -49px 0px 0px 0px;
-    height: 2010px;
+    height : 1810px;
 }
 
 #berita {
@@ -167,15 +175,20 @@ body {
 }
 
 /* Media Queries CSS */
+
 @media screen and (max-width: 575.99px) {
     .navbar-toggler {
         margin: -5px 0px 0px 10px;
     }
 
+    .heading {
+        font-size: 30px;
+    }
+
     .kotak {
-        width: 180px;
+        width: 10px;
         height: 70px;
-        margin: -20px 0px 30px 140px;
+        margin: -20px 0px 30px 180px !important;
     }
 
     .program {
@@ -186,44 +199,45 @@ body {
     }
 
     .gambar-program {
-        height: 2000px;
-        width : 100%;
+        height: 1500px !important;
+        margin-top: -80px;
+        width: auto !important;
     }
 
     #first-card {
-        margin: 70px 0px 0px 60px;
+        margin: 70px 0px 0px 130px;
+        width: 250px !important;
     }
 
     #second-card {
-        margin: -70px 0px 0px 60px;
+        margin: 20px 0px 0px 130px;
+        width: 250px !important;
     }
 
     #third-card {
-        margin: -70px 0px 0px 60px;
+        margin: 20px 0px 0px 130px;
+        width: 250px !important;
     }
 
     #last-card {
-        margin: -70px 0px 0px 60px;
-    }
-
-    .berita-dan-terpopuler {
-        height: 1000px;
+        margin: 20px 0px 0px 130px;
+        width: 250px !important;
     }
 
     .gambar-berita {
-        width: auto;
-        height: 220px;
+        width: 380px !important;
+        height: 280px !important;
     }
 
     .terpopuler-pertama {
-        width: auto;
-        height: 220px;
-        margin-bottom: 30px;
+        width: 380px !important;
+        height: 280px !important;
+        margin-bottom: -1px !important;
     }
 
     .terpopuler-kedua {
-        width: auto;
-        height: 220px;
+        width: 380px !important;
+        height: 280px !important;
     }
 
     .quotes {
@@ -231,7 +245,8 @@ body {
     }
 
     .berita-dan-terpopuler {
-        height: 1300px;
+        margin-left: -130px;
+        height: 1350px !important;
     }
 }
 
@@ -512,11 +527,11 @@ footer.light .footer-copyright{
     padding: 0; 
     background-color: transparent;  
     margin-bottom: 40px;
-    box-shadow: none; 
     -webkit-box-shadow: none; 
     -moz-box-shadow: none; 
     -ms-box-shadow: none; 
     -o-box-shadow: none;
+    box-shadow: none;
 }
 
 .widget.subscribe p {  
