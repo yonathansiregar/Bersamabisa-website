@@ -61,14 +61,33 @@ body {
     color: white;
 }
 
-/* Style di bagian Donasi Untuk Korban Bencana Alam */
-.first-container {
+/* Style di 3 bagian Donasi */
+.contain {
     background-color: blue;
-    height: 750px;
+    height: 2350px;
 }
 #first-box {
     width: 520px;
     height: 80px;
+    background-color: rgb(168, 60, 60);
+    margin-left: 50px !important;
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid black;
+}
+#second-box {
+    width: 520px;
+    height: 80px;
+    background-color: rgb(168, 60, 60);
+    margin-left: 50px !important;
+    margin-top: 50px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#third-box {
+    width: 520px;
+    height: 115px;
     background-color: rgb(168, 60, 60);
     margin-left: 50px !important;
     margin-top: 50px;
@@ -85,15 +104,227 @@ body {
 
 /* Media Queries Style For Responsive Website */
 @media screen and (max-width: 575.99px){
+    .contain {
+        height: 1950px !important;
+    }
 
+    #first-box {
+        width: 280px;
+        height: 50px;
+        background-color: rgb(168, 60, 60);
+        margin-left: 10px !important;
+        margin-top: 50px;
+        display: inline-block;
+    }
+
+    #f-caption {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
+
+    #second-box {
+        width: 280px;
+        height: 50px;
+        background-color: rgb(168, 60, 60);
+        margin-left: 10px !important;
+        margin-top: 50px;
+        display: inline-block;
+        border: 1px solid black;
+    }
+
+    #s-caption {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
+    
+    #third-box {
+        width: 230px;
+        height: 70px;
+        background-color: rgb(168, 60, 60);
+        margin-left: 10px !important;
+        margin-top: 50px;
+        display: inline-block;
+        border: 1px solid black;
+    }
+
+    #t-caption {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
 }
 
 @media screen and (max-width: 767.99px) {
+    .contain {
+        height: 2350px;
+    }
+
+    #first-box {
+        width: 280px;
+        height: 50px;
+        background-color: rgb(168, 60, 60);
+        margin-left: 10px !important;
+        margin-top: 50px;
+        display: inline-block;
+    }
+
+    #f-caption {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
+
+    #second-box {
+        width: 280px;
+        height: 50px;
+        background-color: rgb(168, 60, 60);
+        margin-left: 10px !important;
+        margin-top: 50px;
+        display: inline-block;
+        border: 1px solid black;
+    }
+
+    #s-caption {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
     
+    #third-box {
+        width: 230px;
+        height: 70px;
+        background-color: rgb(168, 60, 60);
+        margin-left: 10px !important;
+        margin-top: 50px;
+        display: inline-block;
+        border: 1px solid black;
+    }
+
+    #t-caption {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contain {
+        height: 2100px;
+    }
+
+    #first-box {
+        width: 280px;
+        height: 50px;
+        background-color: rgb(168, 60, 60);
+        margin-left: 10px !important;
+        margin-top: 50px;
+        display: inline-block;
+    }
+
+    #f-caption {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
+
+    #second-box {
+        width: 280px;
+        height: 50px;
+        background-color: rgb(168, 60, 60);
+        margin-left: 10px !important;
+        margin-top: 50px;
+        display: inline-block;
+        border: 1px solid black;
+    }
+
+    #s-caption {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
+    
+    #third-box {
+        width: 310px;
+        height: 70px;
+        background-color: rgb(168, 60, 60);
+        margin-left: 10px !important;
+        margin-top: 50px;
+        display: inline-block;
+        border: 1px solid black;
+    }
+
+    #t-caption {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
 }
 
 @media screen and (min-width: 992px) {
+    .contain {
+        height: 2250px;
+    }
+
+    #first-box {
+        width: 280px;
+        height: 50px;
+        background-color: rgb(168, 60, 60);
+        margin-left: 10px !important;
+        margin-top: 50px;
+        display: inline-block;
+    }
+
+    #f-caption {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
+
+    #second-box {
+        width: 280px;
+        height: 50px;
+        background-color: rgb(168, 60, 60);
+        margin-left: 10px !important;
+        margin-top: 50px;
+        display: inline-block;
+        border: 1px solid black;
+    }
+
+    #s-caption {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
     
+    #third-box {
+        width: 230px;
+        height: 70px;
+        background-color: rgb(168, 60, 60);
+        margin-left: 10px !important;
+        margin-top: 50px;
+        display: inline-block;
+        border: 1px solid black;
+    }
+
+    #t-caption {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        color: #FFFFFF;
+    }
 }
 
 /* Responsive Bottom Footer Style */
