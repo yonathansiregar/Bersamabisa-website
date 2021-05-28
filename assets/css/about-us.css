@@ -225,10 +225,6 @@ body {
         margin-top: 10px;
     }
 
-    #first {
-        height: 1000px;
-    }
-
     #foto {
         height: 250px !important;
         width: auto;
@@ -258,7 +254,7 @@ body {
     }
 
     #first {
-        height: 1000px !important;
+        height: 2200px;
     }
 
     #first-card, #second-card, #third-card, #last-card {
@@ -270,11 +266,11 @@ body {
     }
 
     #kontak-wa {
-        margin: 100px 0px 0px -235px;
+        margin: 10px 0px 0px 15px;
     }
 
     #gmail {
-        margin: 200px 0px 0px -235px;
+        margin: 30px 0px 0px 15px;
     }
 
     #container-ketiga {
@@ -297,7 +293,7 @@ body {
     }
 
     #first {
-        height: 1000px !important;
+        height: 1000px;
     }
 
     #first-card {
