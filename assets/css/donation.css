@@ -104,8 +104,16 @@ body {
 
 /* Media Queries Style For Responsive Website */
 @media screen and (max-width: 575.99px){
+    .brand {
+        display: none;
+    }
+
+    .navbar-name {
+        margin-top: 10px;
+    }
+
     .contain {
-        height: 1950px !important;
+        height: 2100px !important;
     }
 
     #first-box {
