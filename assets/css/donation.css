@@ -83,6 +83,19 @@ body {
     margin: 20px 23px 120px 30px;
 }
 
+/* Media Queries Style For Responsive Website */
+@media screen and (max-width: 575.99px){
+
+}
+
+@media screen and (max-width: 767.99px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+}
+
 /* Responsive Bottom Footer Style */
 /* Main Footer */
 footer .main-footer{  
