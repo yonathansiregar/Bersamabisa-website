@@ -213,23 +213,95 @@ body {
 
 /* Media Queries Style For Responsive Website */
 @media screen and (max-width: 575.99px){
-    #first {
-        height: 3000px;
+    .brand {
+        display: none;
     }
+
+    .navbar-name:hover {
+        color:rgb(41, 203, 231);
+    }
+
+    .brand-name {
+        margin-top: 10px;
+    }
+
+    #first {
+        height: 1000px;
+    }
+
+    #foto {
+        height: 250px !important;
+        width: auto;
+    }
+
     .profil-tim-kami {
         width: auto !important;
     }
 
     #container {
-        height: 400px;
+        height: 450px !important;
     }
 
     .col #visi {
-        height: 180px;
+        height: auto;
     }
 
     .col #misi {
-        height: 180px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+    #foto {
+        width: auto !important;
+        height: 200px;
+    }
+
+    #first {
+        height: 1000px !important;
+    }
+
+    #first-card, #second-card, #third-card, #last-card {
+        height: auto !important;
+    }
+
+    .icons {
+        font-size: 16px;
+    }
+
+    #kontak-wa {
+        margin: 100px 0px 0px -235px;
+    }
+
+    #gmail {
+        margin: 200px 0px 0px -235px;
+    }
+
+    #container-ketiga {
+        height: 600px;
+    }
+
+    .contacts {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #foto {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    #container-ketiga {
+        height: 330px !important;
+    }
+
+    #first {
+        height: 1000px !important;
+    }
+
+    #first-card {
+        height: auto !important;
     }
 }
 
