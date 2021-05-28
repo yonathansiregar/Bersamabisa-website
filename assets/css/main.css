@@ -182,13 +182,13 @@ body {
     }
 
     .heading {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .kotak {
         width: 10px;
         height: 70px;
-        margin: -20px 0px 30px 180px !important;
+        margin: -20px 0px 30px 120px !important;
     }
 
     .program {
@@ -205,23 +205,27 @@ body {
     }
 
     #first-card {
-        margin: 70px 0px 0px 130px;
+        margin: 70px 0px 0px 80px;
         width: 250px !important;
+        height: 280px !important;
     }
 
     #second-card {
-        margin: 20px 0px 0px 130px;
+        margin: 20px 0px 0px 80px;
         width: 250px !important;
+        height: 300px !important;
     }
 
     #third-card {
-        margin: 20px 0px 0px 130px;
+        margin: 20px 0px 0px 80px;
         width: 250px !important;
+        height: 300px !important;
     }
 
     #last-card {
-        margin: 20px 0px 0px 130px;
+        margin: 20px 0px 0px 80px;
         width: 250px !important;
+        height: 300px !important;
     }
 
     .gambar-berita {
@@ -334,6 +338,10 @@ body {
 }
 
 @media screen and (max-width: 991.99px) {
+    .navbar-brand {
+        margin-left: 20px;
+    }
+
     .kotak {
         width: 200px;
         height: 70px;
@@ -348,7 +356,8 @@ body {
     }
 
     .gambar-program {
-        height: 450px;
+        height: 550px;
+        width: auto !important;
     }
 
     .card-img-top {
@@ -369,6 +378,25 @@ body {
     .card-title {
         font-size: 15px;
         color: white;
+    }
+    
+    #first-card {
+        height: 400px;
+    }
+
+    .first-card-title {
+        font-size: 20px;
+    }
+
+    #second-card {
+        height: 400px;
+    }
+    #third-card {
+        height: 400px;
+    }
+
+    #last-card {
+        height: 400px;
     }
 
     .btn-satu {
