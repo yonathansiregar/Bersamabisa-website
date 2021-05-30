@@ -68,7 +68,7 @@ body {
 /* Konten Beberapa Program */
 .konten {
     background-color: cornflowerblue;
-    height: 8300px;
+    height: 4200px;
 }
 
 .kotak-pertama {
@@ -79,9 +79,13 @@ body {
     color: #FFFFFF;
 }
 
-.deskripsi-pelanggaran-ham {
+.deskripsi {
     text-align: justify;
     text-indent: 50px;
+}
+
+.gambar-dua{
+    margin-top: -50px !important;
 }
 
 .kotak-kedua {
@@ -113,8 +117,198 @@ body {
 }
 
 .baca:hover {
-    color:#000000;
+    color:#000000 !important;
     font-weight: bold;
+}
+
+/* Media Queries Style For Responsive Website */
+@media screen and (max-width: 575.99px){
+    .web-name {
+        font-size: 16px;
+    }
+
+    .konten {
+        height: 8500px !important;
+    }
+
+    .kotak-pertama {
+        width: 300px;
+        margin-left: -5px !important;
+    }
+
+    .keterangan-pertama {
+        font-size: 16px;
+    }
+    
+    .kotak-kedua {
+        width: 250px;
+        margin-left: 5px !important;
+    }
+    
+    .keterangan-kedua {
+        font-size: 14px;
+    }
+
+    .kotak-ketiga {
+        width: 240px;
+        margin-left: 5px !important;
+    }
+
+    .keterangan-ketiga {
+        font-size: 16px;
+    }
+
+    .kotak-keempat {
+        width: 390px;
+        margin-left: 5px !important;
+    }
+
+    .keterangan-keempat {
+        font-size: 16px;
+    }
+
+    .gambar-dua {
+        margin-top : -30px !important;
+    }
+
+    .gambar-tiga {
+        margin-top : 10px !important;
+    }
+
+    .gambar-empat {
+        margin-top : 20px !important;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .satu {
+        position: absolute;
+        margin-left: -100px !important;
+    }
+
+    .dua {
+        position: absolute;
+        margin-top: 340px;
+        margin-left: -40px !important;
+    }
+
+    .tiga {
+        position: absolute;
+        margin-top: 690px;
+        margin-left: -40px !important;
+    }
+
+    .terakhir {
+        position: absolute;
+        margin-top: 1050px;
+        margin-left: -40px !important;
+    }
+
+    .baca:hover {
+        color:#000000 !important;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 767.99px) {
+    .konten {
+        height: 10500px !important;
+    }
+
+    .gambar-dua {
+        margin-top : 2px !important;
+    }
+
+    .gambar-tiga {
+        margin-top : 10px !important;
+    }
+
+    .gambar-empat {
+        margin-top : 20px !important;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .satu {
+        position: absolute;
+        margin-left: -40px !important;
+    }
+
+    .dua {
+        position: absolute;
+        margin-top: 340px;
+        margin-left: -40px !important;
+    }
+
+    .tiga {
+        position: absolute;
+        margin-top: 690px;
+        margin-left: -40px !important;
+    }
+
+    .terakhir {
+        position: absolute;
+        margin-top: 1050px;
+        margin-left: -40px !important;
+    }
+
+    .list-programs {
+        margin-left: 230px !important;
+    }
+
+    .baca:hover {
+        color:#000000 !important;
+        font-weight: bold;
+    }
+}
+
+/* Tablet Device */
+@media screen and (min-width: 768px and max-width= 1023.99px) { 
+    .konten {
+        height: 8300px !important;
+    }
+
+    .deskripsi {
+        font-size: 23px !important;
+        text-indent: 3 !important;
+        margin-left: 10px !important;
+        color: #ffffff !important;
+    }
+
+    .contoh {
+        margin-left: 80px !important;
+    }
+
+    .list-programs {
+        display: inline-block;
+        color: #000000 !important;
+    }
+
+    .dua {
+        margin: 350px 0px 0px -300px !important;
+    }
+
+    .baca {
+        color: #000000 !important;
+    }
+
+    .baca:hover {
+        color: #FFFFFF !important;
+    }
+}
+
+@media screen and (min-width: 1024px and max-width= 1399.99px) {
+    .list-programs {
+        display: inline-block !important;
+    }
+
+    .tiga {
+        margin: 0px 0px 0px -100px !important;
+    }
 }
 
 /* Responsive Bottom Footer Style */
